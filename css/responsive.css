@@ -1,0 +1,434 @@
+/*************************************
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*****************************************/
+@media (min-width: 1281px) {
+  /* CSS */
+  .banner_text {
+    margin-left: 30% !important;
+    margin-top: 20px !important;
+    top: 45vh;
+    background-color: #a1a0a0ad !important;
+  }
+  .banner_text h3 {
+    font-size: 30px;
+    color: #fff !important;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+  .banner_text p {
+    width: auto !important;
+    display: inline-block;
+    text-align: left !important;
+    color: #fff;
+    font-size: 20px !important;
+    width: 500px !important;
+  }
+}
+/************************************
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+************************************/
+@media (min-width: 1025px) and (max-width: 1280px) {
+  /* CSS */
+  .banner_text {
+    margin-left: 30% !important;
+    margin-top: 20px !important;
+    top: 45vh;
+    background-color: #a1a0a0ad !important;
+  }
+  .banner_text h3 {
+    font-size: 30px;
+    color: #fff !important;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+  .banner_text p {
+    width: auto !important;
+    display: inline-block;
+    text-align: left !important;
+    color: #fff;
+    font-size: 20px !important;
+    width: 500px !important;
+  }
+}
+/*********************************************
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+************************************************/
+@media (min-width: 768px) and (max-width: 1024px) {
+  /* CSS */
+  header {
+    margin: 0;
+    left: -300px !important;
+    flex-direction: column;
+    display: block !important;
+    width: 250px !important;
+    transform-origin: left;
+    transform: translateX(-100px) skew(200deg);
+    transition: 0.5s ease-in-out;
+    grid-template-columns: auto !important;
+  }
+  header.side_menu_active {
+    position: fixed !important;
+    left: 0 !important;
+    z-index: 1;
+    transform: translateX(0px) skew(0) translateZ(-50px);
+  }
+  #logo {
+    margin-left: 16px !important;
+    width: 200px;
+    height: 100px;
+    border-radius: 0 !important;
+  }
+  ul li {
+    padding: 0;
+    display: block !important;
+    margin-left: 30px !important;
+  }
+  ul li a {
+    line-height: 75px !important;
+    display: inline-block !important;
+    font-size: 22px !important;
+  }
+  .toggle_btn {
+    z-index: 1;
+  }
+  .banner_text {
+    margin-left: 30% !important;
+    margin-top: 20px !important;
+    top: 45vh;
+    background-color: #a1a0a0ad !important;
+  }
+  .banner_text h3 {
+    font-size: 30px;
+    color: #fff !important;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+  .banner_text p {
+    width: auto !important;
+    display: inline-block;
+    text-align: left !important;
+    color: #fff;
+    font-size: 20px !important;
+    width: 500px !important;
+  }
+
+  .banner_slider .slider_btn {
+    transform: translate(0, 30vh);
+    justify-content: space-between;
+  }
+  .banner_slider .slider_btn button {
+    font-size: 16px !important;
+    padding: 10px !important;
+    background-color: #000;
+    color: #fff;
+  }
+}
+/********************************************
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+*************************************************/
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  header {
+    margin: 0;
+    left: -300px !important;
+    flex-direction: column;
+    display: block !important;
+    width: 250px !important;
+    transform-origin: left;
+    transform: translateX(-100px) skew(200deg);
+    transition: 0.5s ease-in-out;
+    grid-template-columns: auto !important;
+  }
+  header.side_menu_active {
+    position: fixed !important;
+    left: 0 !important;
+    z-index: 10;
+    transform: translateX(0px) skew(0) translateZ(-50px);
+  }
+  #logo {
+    margin-left: 16px !important;
+    width: 200px;
+    height: 100px;
+    border-radius: 0 !important;
+  }
+  ul li {
+    padding: 0;
+    display: block !important;
+    margin-left: 30px !important;
+  }
+  ul li a {
+    line-height: 75px !important;
+    display: inline-block !important;
+    font-size: 22px !important;
+  }
+  .toggle_btn {
+    z-index: 10;
+  }
+  .banner_text {
+    margin-left: 15% !important;
+    margin-top: 20px !important;
+    top: 45vh;
+    background-color: #a1a0a0ad !important;
+  }
+  .banner_text h3 {
+    font-size: 30px;
+    color: #fff !important;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+  .banner_text p {
+    width: auto !important;
+    display: inline-block;
+    text-align: left !important;
+    color: #fff;
+    font-size: 20px !important;
+    width: 500px !important;
+  }
+
+  .banner_slider .slider_btn {
+    transform: translate(0, 30vh);
+    justify-content: space-between;
+  }
+  .banner_slider .slider_btn button {
+    font-size: 16px !important;
+    padding: 10px !important;
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+/********************************************************
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+***********************************************************/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  header {
+    margin: 0;
+    left: -300px !important;
+    flex-direction: column;
+    display: block !important;
+    width: 250px !important;
+    transform-origin: left;
+    transform: translateX(-100px) skew(200deg);
+    transition: 0.5s ease-in-out;
+    grid-template-columns: auto !important;
+    z-index: 10;
+  }
+  header.side_menu_active {
+    position: fixed !important;
+    left: 0 !important;
+    z-index: 10;
+    transform: translateX(0px) skew(0) translateZ(-50px);
+  }
+  #logo {
+    margin-left: 16px !important;
+    width: 200px;
+    height: 100px;
+    border-radius: 0 !important;
+  }
+  ul li {
+    padding: 0;
+    display: block !important;
+    margin-left: 30px !important;
+  }
+  ul li a {
+    line-height: 75px !important;
+    display: inline-block !important;
+    font-size: 22px !important;
+  }
+  .toggle_btn {
+    z-index: 10;
+  }
+  .banner_text {
+    margin-left: 11% !important;
+    margin-top: 20px !important;
+    top: 45vh;
+    background-color: #a1a0a0ad !important;
+  }
+  .banner_text h3 {
+    font-size: 30px;
+    color: #fff !important;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+  .banner_text p {
+    width: auto !important;
+    display: inline-block;
+    text-align: left !important;
+    color: #fff;
+    font-size: 20px !important;
+    width: 300px !important;
+  }
+
+  .banner_slider .slider_btn {
+    transform: translate(0, 30vh);
+    justify-content: space-between;
+  }
+  .banner_slider .slider_btn button {
+    font-size: 16px !important;
+    padding: 10px !important;
+    background-color: #000;
+    color: #fff;
+  }
+
+  /*********************************
+   news box responsive  
+**********************************/
+  .news_box {
+    display: inline-block;
+    background: #ffffff;
+    box-shadow: -2px -2px 5px #bbb, 2px 2px 5px #bbb;
+    padding: 5px;
+  }
+  .news_img {
+    width: auto;
+    height: 340px;
+    overflow: hidden;
+  }
+  .news_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .news_article {
+    padding: 16px;
+  }
+  .news_article p {
+    width: 315px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+  }
+  .news_article h4 {
+    font-size: 22px;
+  }
+  .news_date {
+    display: block;
+  }
+  .news_date p {
+    width: auto !important;
+    width: 100px !important;
+  }
+  .news_content .news_box {
+    grid-auto-columns: auto !important;
+    display: grid !important;
+    width: auto;
+  }
+}
+/**********************************************************
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+***********************************************************/
+@media (min-width: 320px) and (max-width: 414px) {
+  header {
+    margin: 0;
+    left: -300px !important;
+    flex-direction: column;
+    display: block !important;
+    width: 250px !important;
+    transform-origin: left;
+    transform: translateX(-100px) skew(200deg);
+    transition: 0.5s ease-in-out;
+    grid-template-columns: auto !important;
+  }
+  header.side_menu_active {
+    position: fixed !important;
+    left: 0 !important;
+    z-index: 10;
+    transform: translateX(0px) skew(0) translateZ(-50px);
+  }
+  #logo {
+    margin-left: 16px !important;
+    width: 200px;
+    height: 100px;
+    border-radius: 0 !important;
+  }
+  ul li {
+    padding: 0;
+    display: block !important;
+    margin-left: 30px !important;
+  }
+  ul li a {
+    line-height: 50px !important;
+    display: inline-block !important;
+  }
+  .toggle_btn {
+    z-index: 10;
+  }
+  .banner_text {
+    margin-left: 9% !important;
+    margin-top: 20px !important;
+    top: 45vh;
+    background-color: #a1a0a0ad !important;
+  }
+  .banner_text h3 {
+    font-size: 30px;
+    color: #fff !important;
+    text-transform: capitalize;
+    padding: 10px;
+  }
+  .banner_text p {
+    width: auto !important;
+    display: inline-block;
+    text-align: left !important;
+    color: #fff;
+    font-size: 20px !important;
+    width: 200px !important;
+  }
+
+  .banner_slider .slider_btn {
+    transform: translate(0, 30vh);
+  }
+  .banner_slider .slider_btn button {
+    font-size: 16px !important;
+    padding: 5px !important;
+    background-color: #000;
+    color: #fff;
+  }
+
+  /****************************************
+   news box responsive  
+*******************************************/
+  .news_box {
+    display: inline-block;
+    background: #ffffff;
+    box-shadow: -2px -2px 5px #bbb, 2px 2px 5px #bbb;
+    padding: 5px;
+  }
+  .news_img {
+    width: 280px;
+    height: 340px;
+    overflow: hidden;
+  }
+  .news_img img {
+    width: 100%;
+    height: 100%;
+  }
+  .news_article {
+    padding: 16px;
+    height: auto;
+    overflow: hidden;
+  }
+  .news_article p {
+    width: 315px;
+    padding: 0;
+    margin: 0;
+  }
+  .news_article h4 {
+    font-size: 22px;
+  }
+  .news_date {
+    display: block;
+  }
+  .news_date p {
+    width: auto !important;
+  }
+  .news_content .news_box {
+    grid-auto-columns: auto !important;
+    display: grid !important;
+    width: 295px;
+  }
+}
